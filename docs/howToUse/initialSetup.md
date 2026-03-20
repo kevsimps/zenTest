@@ -19,12 +19,13 @@
 >
 > Click Clone Repository
 >
-> Enter the repository source: <copy> {{config.extra.repo}}</copy>
+> Enter the repository source: <copy>{{ config.extra.test_repo }}</copy>
 >
 > Select or create a new folder to clone the repository into.
 >
-> 
+> ---
 
+{{ page.title }}
 
 
 ### Build the environment
@@ -50,7 +51,7 @@
     > 
     > <copy>pip install -r requirements.txt</copy>
     >
-    > <copy>mkdocs serve</copy>
+    > <copy>zensical serve</copy>
     >
     > Open a browser to [http://127.0.0.1:8000](http://127.0.0.1:8000){:target="_blank"}
     >
@@ -67,7 +68,7 @@
     >     
     > <copy>pip install -r requirements.txt</copy>
     >
-    > <copy>mkdocs serve</copy>
+    > <copy>zensical serve</copy>
     >
     > Open a browser to [http://127.0.0.1:8000](http://127.0.0.1:8000){:target="_blank"}
 
